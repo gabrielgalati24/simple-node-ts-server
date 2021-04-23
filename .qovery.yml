@@ -1,0 +1,14 @@
+---
+application:
+  name: "simple-node-ts-server"
+  project: "prueba1"
+  organization: "QoveryCommunity"
+databases:
+- type: "POSTGRESQL"
+  name: "pruebadb"
+routers:
+- name: "main-simple-node-ts-server"
+  routes:
+  - application_name: "simple-node-ts-server"
+    paths:
+    - "/*"
